@@ -44,7 +44,7 @@ app.post("/api/check-inventory", async (req, res) => {
     });
 
     const document = {
-      timestamp: newTimestamp,
+      timestamp: new Date(),
       checkResult,
     };
 
